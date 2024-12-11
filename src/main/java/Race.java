@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Race {
-    ArrayList<Car> cars;
+    private final ArrayList<Car> cars;
 
     Race(ArrayList<Car> cars) {
         this.cars = cars;
